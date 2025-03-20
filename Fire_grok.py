@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture('gettyimages-148739157-640_adpp (1).mp4q')
 bg_subtractor = cv2.createBackgroundSubtractorMOG2()
 
 while True:
